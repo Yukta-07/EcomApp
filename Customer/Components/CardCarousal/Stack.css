@@ -1,0 +1,48 @@
+/* StackedCarousel.css */
+
+.stacked-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .stacked-carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .stacked-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 450ms, z-index 450ms, opacity 450ms;
+  }
+  
+  .slide-image {
+    width: 100%; /* Ensure images fill the container */
+    height: auto;
+    border-radius: 10px; /* Optional: add rounded corners */
+  }
+  
+  .slide-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  .brand-logo {
+    width: 30px;
+    height: auto;
+  }
+  
+  .offer-text {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
